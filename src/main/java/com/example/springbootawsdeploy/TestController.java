@@ -16,4 +16,9 @@ public class TestController {
     public String getMessage() {
         return "Second message from AWS Ecs";
     }
+    
+    @GetMapping("/cicd")
+    public String getCicd() {
+        return "AWS ECS CI/CD completed";
+    }
 }
